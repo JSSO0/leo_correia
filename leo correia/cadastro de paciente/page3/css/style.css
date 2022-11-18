@@ -1,0 +1,171 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+
+#titulos {
+    text-align: left;
+}
+
+#titulo {
+    font-size: 24px;
+    color: #2B4061;
+    font-weight: bold;
+}
+
+#subtitulo {
+    font-size: 16px;
+    color: #2B4061;
+    font-weight: bold;
+
+}
+
+#legendas {
+    font-size: 14px;
+    color: #2B4061;
+}
+
+#linke {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: auto;
+}
+
+#textoinp {
+    border: 1px solid #2B4061;
+}
+
+#textoinp3 {
+    border: 1px solid #2B4061;
+    width: 49%;
+}
+
+#botoes {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    float: right;
+}
+
+.botao1 {
+    margin-left: 2%;
+}
+
+#btn1 {
+    background-color: white;
+    color: #2B4061;
+    border: none;
+    font-size: 20px;
+    padding: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    border-radius: 20px;
+}
+
+#btn2 {
+    background-color: #D4AF37;
+    color: #2B4061;
+    border: none;
+    font-size: 20px;
+    padding: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    border-radius: 20px;
+
+}
+
+#mini_titulo {
+    font-size: 14px;
+    color: #2B4061;
+}
+
+#mini_subtitulo {
+    font-size: 12px;
+    color: #2B4061;
+}
+
+
+.input-group-text{
+    width: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#meio{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#addon-wrapping{
+    background-color: white;
+    border: none;
+    width: 10%;
+}
+
+#buscar{
+   border: 1px solid #2B4061;
+   border-radius: 20px;
+   padding: 2%;
+}
+
+#tasks {
+    width: 30px;
+    color: #F7f7f7;
+    margin-right: 10%;
+}
+
+.alinha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+#rel {
+    justify-content: center;
+    width: 20px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#icone {
+    color: #2B4061;
+}
+
+#linha3_alinha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+/*modal*/
+#data{
+    background-color: #F7f7f7;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    box-shadow: 0px 2px 0px 0px rgba(3, 42, 74, 15%);
+    border-radius: 10px;
+}

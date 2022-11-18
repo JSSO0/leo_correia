@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/wes7qed.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+#titulos{
+    text-align: left;
+}
+
+#titulo{
+    font-size: 24px;
+    color: #2B4061 ;
+    font-weight: bold;
+}
+#subtitulo{
+    font-size: 16px;
+    color: #2B4061 ;
+    font-weight: bold;
+
+}
+
+#legendas{
+    font-size: 14px;
+    color: #2B4061;
+}
+
+#linke{
+text-decoration: none;
+}
+
+#textoinp{
+    border: 1px solid #2B4061;
+}
+
+#textoinp3{
+    border: 1px solid #2B4061;
+    width: 49%;
+}
+
+#botoes{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    float: right;
+}
+.botao1{
+    margin-left: 2%;
+}
+
+#btn1{
+    background-color: white;
+    color: #2B4061;
+    border: none;
+    font-size: 20px;
+    padding: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    border-radius: 20px;
+}
+
+#btn2{
+    background-color: #D4AF37;
+    color: #2B4061 ;
+    border: none;
+    font-size: 20px;
+    padding: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    border-radius: 20px;
+
+}
